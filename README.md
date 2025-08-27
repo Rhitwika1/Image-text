@@ -27,6 +27,8 @@ A simple Streamlit web application that extracts text from an image using **Goog
 
 python -m venv venv
 venv\Scripts\activate    # On Windows
+source venv/bin/activate # On macOS/Linux
+
 
 ## API Key Setup
 
