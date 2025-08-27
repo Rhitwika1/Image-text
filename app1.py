@@ -1,3 +1,5 @@
+#applicable to run locally in streamlit not for public view link
+
 import streamlit as st
 import os
 import PIL.Image
@@ -65,3 +67,4 @@ if st.button("Generate"):
             mime="text/csv"
 
         )
+
