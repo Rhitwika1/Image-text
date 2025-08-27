@@ -6,7 +6,7 @@ import pandas as pd
 import google.generativeai as genai
 
 # Set your API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAYpe46XHYgCJMjrAxXh4St1L8R-3n7KAU"
+os.environ["GOOGLE_API_KEY"] = "GOOGLE_API_KEY"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # Create a model instance
@@ -63,4 +63,5 @@ if st.button("Generate"):
             data = csv,
             file_name="details.csv",
             mime="text/csv"
+
         )
