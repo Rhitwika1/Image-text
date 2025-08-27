@@ -26,8 +26,9 @@ A simple Streamlit web application that extracts text from an image using **Goog
 ##  Create and activate a virtual environment
 
 python -m venv venv
+
 venv\Scripts\activate    # On Windows
-source venv/bin/activate # On macOS/Linux
+
 
 
 ## API Key Setup
