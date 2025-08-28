@@ -28,7 +28,7 @@ def image_and_query(uploaded_file, query):
     return response.text  # Return generated text (e.g., story, blog, description)
 
 # ------------------ Streamlit App UI ------------------
-st.title("📷 Image to Text Extractor & Generator")  # App title
+st.title("Image to Text Extractor & Generator")  # App title
 st.write("Upload an image and let AI extract details or create a story/blog about it.")  # Short description
 
 # File uploader (only accepts image formats png, jpg, jpeg)
@@ -47,12 +47,12 @@ if st.button("Generate"):  # When user clicks "Generate"
 
         # ---- Extract image details (AI-generated description) ----
         extracted_details = image_to_text(upload_image)
-        st.subheader("📝 Extracted Details")
+        st.subheader("Extracted Details")
         st.write(extracted_details)
 
         # ---- Generate creative details (story/blog) ----
         generated_details = image_and_query(upload_image, query)
-        st.subheader("✨ Generated Details")
+        st.subheader("Generated Details")
         st.write(generated_details)
 
         # ---- Save results in a CSV file ----
