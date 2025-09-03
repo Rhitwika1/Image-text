@@ -8,7 +8,7 @@ import docx
 import fitz  # PyMuPDF → for PDFs
 
 # ------------------ Configure API Key ------------------
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAYpe46XHYgCJMjrAxXh4St1L8R-3n7KAU"  # replace with your real API key
+os.environ["GOOGLE_API_KEY"] = "GOOGLE_API_KEY"  # replace with your real API key
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # ------------------ Load the Gemini AI Model ------------------
