@@ -1,4 +1,7 @@
 streamlit
-pillow
 pandas
+pillow
 google-generativeai
+python-docx
+PyMuPDF
+openpyxl
